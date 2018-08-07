@@ -1,0 +1,24 @@
+{
+  "name": "tvmaze-node",
+  "version": "1.0.0",
+  "description": "sample app, which uses tvmaze api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algbeta/tvmaze-node.git"
+  },
+  "keywords": [
+    "node",
+    "sample",
+    "tvmaze"
+  ],
+  "author": "Natallia Gorbunova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algbeta/tvmaze-node/issues"
+  },
+  "homepage": "https://github.com/algbeta/tvmaze-node#readme"
+}
