@@ -4,6 +4,7 @@
   "description": "sample app, which uses tvmaze api",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "npm test"
   },
   "repository": {
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/algbeta/tvmaze-node/issues"
   },
-  "homepage": "https://github.com/algbeta/tvmaze-node#readme"
+  "homepage": "https://github.com/algbeta/tvmaze-node#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "nodemon": "^1.18.3",
+    "request": "^2.87.0"
+  },
+  "dependencies": {}
 }
