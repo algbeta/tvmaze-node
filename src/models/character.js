@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-const ActorSchema = new Schema({
+const CharacterSchema = new Schema({
   id: {
     type: Number,
     required: true,
@@ -11,13 +11,6 @@ const ActorSchema = new Schema({
     type: String,
     required: true
   },
-  country: { type: Schema.Types.ObjectId, ref: 'CountrySchema' },
-  birthday: Date,
-  deathday: Date,
-  gender: {
-    type: String,
-    enum: ['Female', 'Male']
-  },
   image: {
     medium: String,
     original: String
@@ -25,4 +18,4 @@ const ActorSchema = new Schema({
   _links: { self: { href: String } }
 })
 
-export default ActorSchema
+export default CharacterSchema
